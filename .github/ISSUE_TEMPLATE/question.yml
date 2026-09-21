@@ -1,0 +1,25 @@
+name: Question
+description: Something unclear in the docs / usage (not inject help)
+title: "[question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For open-ended talk, prefer Discussions.
+        Do not ask how to inject or bypass anticheat here.
+  - type: textarea
+    id: q
+    attributes:
+      label: Question
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I read the README and docs/faq.md
+          required: true
+        - label: This is not an injector / bypass request
+          required: true

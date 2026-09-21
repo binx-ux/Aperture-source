@@ -1,0 +1,33 @@
+name: Feature request
+description: Idea for the menu / dll (not injectors)
+title: "[feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: Keep it realistic for an internal menu dll. Injector / bypass ideas will be closed.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: What you want and why
+    validations:
+      required: true
+  - type: dropdown
+    id: game
+    attributes:
+      label: Target
+      options:
+        - Fortnite
+        - FiveM
+        - Both
+        - General / menu
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: This is not a request for an injector, loader, or anticheat bypass
+          required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discussions
+    url: https://github.com/binx-ux/Aperture-source/discussions
+    about: General chat, questions that are not a bug.
+  - name: Docs
+    url: https://github.com/binx-ux/Aperture-source/tree/main/docs
+    about: Build, offsets, FAQ.

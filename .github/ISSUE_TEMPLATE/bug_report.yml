@@ -1,0 +1,55 @@
+name: Bug report
+description: Something in the dll / build is broken
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Read the README first. No injector / bypass requests.
+        Fortnite: pull latest offsets before filing.
+        FiveM: include your build. offset / pattern updates are mostly on you.
+  - type: dropdown
+    id: game
+    attributes:
+      label: Game
+      options:
+        - Fortnite
+        - FiveM
+        - Both / unsure
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Game / client version
+      description: FN season/CL if you know it, or FiveM bXXXX artifact name
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you saw vs what you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps
+      description: How to hit it
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I built Release x64 from latest main
+          required: true
+        - label: I am not asking for an injector or anticheat bypass
+          required: true
+        - label: For Fortnite I pulled latest before reporting
+          required: false
+        - label: For FiveM I tried updating FiveM.hpp for my build
+          required: false

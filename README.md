@@ -2,7 +2,7 @@
 
 internal dll for Fortnite and FiveM. menu, aim (mouse move), esp, local key gate that looks like a loader screen. thats it.
 
-i went through this code a lot before leaving it like this. build is clean on vs (release x64). still, game updates break offsets, so dont expect it to work forever without you touching stuff.
+i went through this code a lot before leaving it like this. build is clean on vs (release x64).
 
 ---
 
@@ -22,6 +22,14 @@ fortnite live with eac will reject normal loadlibrary inject. that is expected. 
 
 ---
 
+## offsets
+
+**Fortnite:** i (kyn) will update `Offsets.hpp` after FN patches so you dont have to. pull latest when the game updates. if something still breaks open an issue with the build / version.
+
+**FiveM:** those are on you. builds change a lot and i am not chasing every artifact. update patterns / build offsets in `FiveM.hpp` yourself when your client moves.
+
+---
+
 ## build
 
 open `FortniteExternalCheat.sln` in visual studio, or:
@@ -36,6 +44,8 @@ needs:
 
 output:
 `bin\Release\Aperture.dll`
+
+more detail in [docs/build.md](docs/build.md).
 
 ---
 
@@ -53,9 +63,17 @@ defaults:
 - insert = menu
 - right mouse = aim when enabled
 
-fortnite offsets live in `Offsets.hpp` (last set for ~42.20). update them after patches or nothing will resolve.
+---
 
-fivem uses pattern scans + build specific offsets in `FiveM.hpp`.
+## docs and community
+
+- [docs/](docs/) - build, offsets, faq
+- [CONTRIBUTING.md](CONTRIBUTING.md) - how to PR / report stuff
+- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+- [SECURITY.md](SECURITY.md)
+- [SUPPORT.md](SUPPORT.md)
+- use **Issues** for bugs and questions (templates are there)
+- Discussions are on if you just want to talk
 
 ---
 
@@ -75,7 +93,7 @@ put the names somewhere users can actually see (readme, site, product ui). strip
 
 ## credits
 
-- **kyn** - work on this build / maintainer
+- **kyn** - this build / maintainer (FN offsets)
 - **Dola17** - project
 - **vvar1thes** - original base and a lot of the early files
 - **Dear ImGui** (ocornut)
