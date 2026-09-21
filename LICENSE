@@ -1,0 +1,44 @@
+Aperture Source License
+Copyright (c) 2024-2026 kyn, Dola17, and contributors
+
+Permission is granted to use, copy, modify, and distribute this software
+and its source, with or without changes, for personal or commercial use,
+subject to the rules below.
+
+1. What this repo is
+   This project is source / a compiled DLL only. It does not include a
+   loader, injector, anticheat bypass, driver, or any tool that gets the
+   DLL into a protected process. Those are your problem. Do not ask the
+   authors for them.
+
+2. Credits (required)
+   If you redistribute this code, a build of it, or a product made from
+   it (free or paid, private or public), you MUST give clear credit to:
+
+     - kyn (this build / maintainer)
+     - Dola17 (project)
+     - vvar1thes (original base and early work)
+     - anyone else listed in NOTICE or the project README under Credits
+
+   Credit means visible attribution in your README, product page, sales
+   page, Discord, loader UI, or wherever users see the product. Removing
+   names, pretending you wrote it alone, or stripping this LICENSE is not
+   allowed.
+
+3. Selling
+   Selling is allowed only if section 2 is followed. No exceptions for
+   "rebranded" builds, "private" cheats, or renamed forks.
+
+4. Third party
+   Dear ImGui and MinHook stay under their own licenses in third_party/.
+   Keep those license files when you ship binaries that include them.
+
+5. No warranty
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. THE
+   AUTHORS ARE NOT LIABLE FOR BANS, HARDWARE DAMAGE, LEGAL ISSUES, OR
+   ANYTHING ELSE THAT COMES FROM USING THIS CODE. You use it at your
+   own risk. Game ToS / law is on you.
+
+6. No endorsement
+   Using this code does not mean the authors endorse your product,
+   service, or community.

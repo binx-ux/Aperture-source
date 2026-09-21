@@ -1,0 +1,15 @@
+Aperture / FortniteExternalCheat
+
+Authors and credits (keep this when you redistribute or sell):
+
+  kyn         - work on this build / maintainer
+  Dola17      - project
+  vvar1thes   - original base / early commits
+
+Third party (see their licenses under third_party/):
+
+  Dear ImGui  - ocornut
+  MinHook     - TsudaKageyu
+
+If you ship a product based on this repo, credit the people above.
+Do not strip this file.
